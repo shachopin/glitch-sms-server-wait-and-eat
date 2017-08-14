@@ -1,0 +1,19 @@
+{
+	"name": "angular-course-server",
+	"version": "0.0.1",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+  "dependencies": {
+    "express": "~3.2.4",
+    "firebase": "~3.0.3",
+    "mailgun-js": "~0.7.6",
+    "socket.io": "~0.9.14",
+    "twilio": "~2.5.2"
+  },
+	"engines": {
+		"node": "4.4.5"
+	},
+	"license": "MIT"
+}
